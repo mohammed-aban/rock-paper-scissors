@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="title">Rock Paper Scissors</p>
+    <button id="rock" class="move-button">
+        <img src="assets/rock-emoji.png" class="move-icon">
+    </button>
+    <button id="paper" class="move-button">
+        <img src="assets/paper-emoji.png" class="move-icon">
+    </button>
+    <button id="scissors" class="move-button">
+        <img src="assets/scissors-emoji.png" class="move-icon">
+    </button>
+    <p class="match-result"></p>
+    <p class="moves">
+        You:
+        <img src="assets/rock-emoji.png" class="move-icon player-icon">
+        Computer:
+        <img src="assets/rock-emoji.png" class="move-icon computer-icon">
+    </p>
+    <p id="final-result">Start the game</p>
+    <button id="reset-score">Reset score</button>
+    <button class="auto-play">Auto play</button>
+    <div class="reset-div"></div>
+    <p class="keyboard-shortcuts">
+        Keyboard shorcuts -<br>
+        R: To choose rock.<br>
+        P: To choose paper.<br>
+        S: To choose scissors.<br>
+        Backspace: To reset the score.<br>
+        A: To auto play.
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>
